@@ -1,0 +1,36 @@
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:30px 100px;
+}
+.mainRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:200px;
+}
+.heading{
+    color:#ECF1F0;
+    font-size: 30px;
+    font-weight: 700;
+}
+.subHeading{
+    color:#B6B6B6;
+    font-size: 16px;
+}
+.mainImg {
+    order: 1;
+  }
+  
+@media screen and (max-width: 1120px) {
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .mainImg {
+        order: 0;
+        margin-bottom: 20px;
+      }
+}

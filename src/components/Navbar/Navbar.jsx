@@ -20,7 +20,7 @@ function Navbar() {
 
       <div className={`${styles.navItems} ${isOpen ? styles.open : ''}`}>
         {navItems.map((item, index) => (
-          <div key={index}>{item}</div>
+          <div key={index} className={index === 0 ? styles.highlight : ''}>{item}</div>
         ))}
          {/* <img
           src={hamburger}
