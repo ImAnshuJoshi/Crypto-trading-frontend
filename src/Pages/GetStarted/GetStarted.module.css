@@ -1,0 +1,32 @@
+.getStartedContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 200px;
+}
+.InnerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:90%;
+}
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height:200px;
+    width:30%;
+}
+.heading{
+    font-size: 36px;
+    font-weight: 600;
+    color:#ECF1F0;
+}
+.subHeading{
+    color:#B6B6B6;
+    font-size: 16px;
+}

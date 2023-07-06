@@ -4,6 +4,7 @@ import FeatureCard from "./components/FeatureCard/FeatureCard";
 import Main from "./components/Main/Main";
 import Navbar from "./components/Navbar/Navbar";
 import Features from "./Pages/Features/Features";
+import GetStarted from "./Pages/GetStarted/GetStarted";
 import MarketTrend from "./Pages/MarketTrend/MarketTrend";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <MarketTrend />
       <Features />
       <Explore />
+      <GetStarted />
     </div>
   );
 }

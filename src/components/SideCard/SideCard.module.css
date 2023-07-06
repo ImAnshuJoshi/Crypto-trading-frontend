@@ -1,0 +1,22 @@
+.eachSideCard{
+    display: flex;
+    align-items: center;
+    height:128px;
+    width: 535px;
+    background: rgba(255, 255, 255, 0.02);
+    color:white;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 20px;
+    border-radius: 18px;
+}
+.cardImg{
+    margin-right: 10px;
+}
+.Cardheading{
+    font-size: 20px;
+    font-weight: 500;
+}
+.CardDesc{
+    font-size: 16px;
+    color:#B6B6B6;
+}
