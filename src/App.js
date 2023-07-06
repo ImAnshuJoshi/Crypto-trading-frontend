@@ -1,7 +1,8 @@
 import "./App.css";
+import FeatureCard from "./components/FeatureCard/FeatureCard";
 import Main from "./components/Main/Main";
-import MarketTrendCard from "./components/MarketTrendCard/MarketTrendCard";
 import Navbar from "./components/Navbar/Navbar";
+import Features from "./Pages/Features/Features";
 import MarketTrend from "./Pages/MarketTrend/MarketTrend";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Main />
       <MarketTrend />
+      <Features />
     </div>
   );
 }

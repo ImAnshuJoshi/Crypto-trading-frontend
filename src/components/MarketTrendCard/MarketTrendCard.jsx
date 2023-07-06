@@ -6,9 +6,6 @@ import arrowtilt from '../../assets/arrowtilt.png';
 function MarketTrendCard({item}) {
   return (
     <div className={styles.MarketTrendCardContainer}>
-      {/* {data.map((item, index) => {
-        return (
-            <div className={styles.EachCardContainer}> */}
           <div className={styles.cardHeader}>
             <div>
               <div>
@@ -17,7 +14,9 @@ function MarketTrendCard({item}) {
               <div>{item.name}</div>
               <div className={styles.cardHeaderCategory}>{item.category}</div>
             </div>
+            <div className={styles.tiltArrow}>
             <img src={arrowtilt} alt="" />
+            </div>
           </div>
           <div className={styles.divider}></div>
           <div className={styles.cardFooter}>
@@ -27,9 +26,6 @@ function MarketTrendCard({item}) {
             </div>
             <img src={item.graph} alt="" />
           </div>
-            {/* </div>
-        );
-      })} */}
     </div>
   );
 }

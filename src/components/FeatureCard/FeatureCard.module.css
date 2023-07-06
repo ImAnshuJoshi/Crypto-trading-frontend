@@ -1,0 +1,33 @@
+.eachCardContainer{
+    height:343px;
+    width:250px;
+    background: rgba(255, 255, 255, 0.02);
+    color:white;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 18px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.eachCardContainer>div{
+    width:90%;
+}
+.featureImg{
+    height: 80px;
+    width: 80px;
+}
+.featureTitle{
+    font-size: 20px;
+    color:#ECF1F0;
+    font-weight: 500;
+}
+.featureDesc{
+    font-size: 16px;
+    color:#B6B6B6;
+}
+.FeatureCardFooter{
+    margin-top: 20px;
+    color: #0FAE96;   
+}

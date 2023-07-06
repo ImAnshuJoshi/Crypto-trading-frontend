@@ -1,0 +1,24 @@
+.featureContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.featuresHeading{
+    font-size: 36px;
+    font-weight: 600;
+    color:#ECF1F0;
+}
+.featuresSubHeading{
+    color:#B6B6B6;
+    font-size: 16px;
+    margin:30px;
+}
+.featureCards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    flex-wrap: wrap;
+}
