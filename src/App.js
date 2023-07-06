@@ -1,4 +1,5 @@
 import "./App.css";
+import Explore from "./components/Explore/Explore";
 import FeatureCard from "./components/FeatureCard/FeatureCard";
 import Main from "./components/Main/Main";
 import Navbar from "./components/Navbar/Navbar";
@@ -12,6 +13,7 @@ function App() {
       <Main />
       <MarketTrend />
       <Features />
+      <Explore />
     </div>
   );
 }
