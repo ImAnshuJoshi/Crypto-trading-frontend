@@ -10,7 +10,7 @@
     width:inherit;
   }
   .tableHeader {
-    margin-bottom: 10px;
+    height:80px;
   }
   .currencyNames{
     display: flex;
@@ -37,4 +37,20 @@
       display: none;
     }
   }
-  
+  @media screen and (max-width: 618px) {
+    .tableContainer{
+      padding: 20px 10px 20px 10px;
+    }
+    .currencyNames{
+      justify-content: space-between;
+    }
+    .coinNameText , .verticalDivider , .coinCode{
+      display: none;
+    }
+    .tableHeader{
+      display: none;
+    }
+    .lastPrice , .index {
+      display: none;
+    }
+  }

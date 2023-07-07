@@ -93,7 +93,7 @@ function Table() {
             return (
               <React.Fragment key={index}>
                 <tr>
-                  <td>{index + 1}</td>
+                  <td className={styles.index}>{index + 1}</td>
                   <td className={styles.coinName}>
                     <div className={styles.currencyNames}>
                       <img src={item.img} alt={item.name} />
@@ -102,7 +102,7 @@ function Table() {
                       <div className={styles.coinCode}>{item.code}</div>
                     </div>
                   </td>
-                  <td>{item.LastPrice}</td>
+                  <td className={styles.lastPrice}>{item.LastPrice}</td>
                   <td className={`${styles.change} ${(index == 4 || index==5 || index==6) ? styles.negChange : ""}`}>{item.Change}</td>
                   <td className={styles.marketStats}>
                     <img src={item.marketStats} alt={item.name} />
