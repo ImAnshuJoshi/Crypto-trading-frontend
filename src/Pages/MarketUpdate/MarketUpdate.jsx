@@ -19,6 +19,9 @@ function MarketUpdate() {
                 <Table/>
             </div>
         </div>
+        <div className={styles.hyperLink}>
+          See All Coins
+        </div>
         </div>
     </div>
   )

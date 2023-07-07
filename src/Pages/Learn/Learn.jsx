@@ -66,6 +66,9 @@ function Learn() {
                     )
                 })
             }
+        <div className={styles.hyperLink}>
+          See All Coins
+        </div>
         </div>
     </div>
   )
