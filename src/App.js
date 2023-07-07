@@ -1,6 +1,7 @@
 import "./App.css";
 import Explore from "./components/Explore/Explore";
 import FeatureCard from "./components/FeatureCard/FeatureCard";
+import Footer from "./components/Footer/Footer";
 import Main from "./components/Main/Main";
 import Navbar from "./components/Navbar/Navbar";
 import Features from "./Pages/Features/Features";
@@ -18,6 +19,7 @@ function App() {
       <Explore />
       <MarketUpdate />
       <GetStarted />
+      <Footer />
     </div>
   );
 }
