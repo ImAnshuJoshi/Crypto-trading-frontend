@@ -1,0 +1,35 @@
+.tableContainer {
+    background: rgba(255, 255, 255, 0.02);
+    color: #B6B6B6;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 20px 30px 20px 30px;
+    width:inherit;
+  }
+  
+  .tableHeader {
+    margin-bottom: 10px;
+  }
+  tbody{
+    margin-top: 30px;
+  }
+  .currencyNames{
+    display: flex;
+    align-items: center;
+    justify-content: space-start;
+  }
+  .currencyNames>img{
+    margin-right: 20px;
+  }
+  .verticalDivider{
+    border-left: 1px solid #403A3A;
+    height: 20px;
+    margin: 0px 20px 0px 20px;
+  }
+  .horizontalDivider{
+    border-bottom: 1px solid #403A3A;
+    width: 100%;
+  }

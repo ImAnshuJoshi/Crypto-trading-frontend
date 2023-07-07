@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Features from "./Pages/Features/Features";
 import GetStarted from "./Pages/GetStarted/GetStarted";
 import MarketTrend from "./Pages/MarketTrend/MarketTrend";
+import MarketUpdate from "./Pages/MarketUpdate/MarketUpdate";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <MarketTrend />
       <Features />
       <Explore />
+      <MarketUpdate />
       <GetStarted />
     </div>
   );

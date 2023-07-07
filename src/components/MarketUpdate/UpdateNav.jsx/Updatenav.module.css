@@ -1,0 +1,38 @@
+.updateNavContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.navItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.navItem{
+    background: rgba(255, 255, 255, 0.02);
+    color:white;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding:10px 20px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.firstNavItem{
+    background-color: #EAEAEA;
+    font-weight: 500;
+    color:#211631;
+}
+.InputSearch{
+    padding: 10px 20px 10px 45px;
+    background: rgba(255, 255, 255, 0.1);
+    color:white;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    background: url("../../../assets/search.png") no-repeat scroll 7px 7px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
