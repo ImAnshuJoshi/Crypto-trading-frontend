@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    margin:30px 100px;
+    margin:50px 100px;
 }
 .marketTrendContainerHeading{
     color:#ECF1F0;
@@ -20,4 +20,25 @@
 }
 .cards>div{
     margin-right: 25px;
+}
+@media screen and (max-width: 1125px) {
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .MarketTrend{
+        margin: 50px 20px;
+    }
+}
+@media screen and (max-width: 670px){
+    .MarketTrend{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        margin:50px 100px;
+    }
 }

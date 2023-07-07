@@ -12,25 +12,40 @@
 }
 .heading{
     color:#ECF1F0;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 700;
 }
 .subHeading{
     color:#B6B6B6;
-    font-size: 16px;
+    font-size: 18px;
+    width:70%;
 }
-.mainImg {
-    order: 1;
-  }
   
 @media screen and (max-width: 1120px) {
     .mainContainer{
         display: flex;
-        flex-direction: column;
-
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
     }
-    .mainImg {
-        order: 0;
-        margin-bottom: 20px;
-      }
+    .mainRight{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        text-align: center;
+    }
+    .subHeading{
+        margin : 40px auto;
+    }
+}
+@media screen and (max-width: 500px) {
+    .mainImg{
+        width:90%;
+    }
+    .mainRight{
+        width:180%;
+    }
 }

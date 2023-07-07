@@ -30,3 +30,25 @@
     color:#B6B6B6;
     font-size: 16px;
 }
+@media screen and (max-width: 980px) {
+    .getStartedContainer{
+        margin-top: 50px;
+    }
+    .InnerContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .getStartedBtn{
+        margin-bottom: 30px;
+    }
+    .leftContainer{
+        width:100%;
+        align-items: center;
+    }
+    .heading{
+        font-size: 24px;
+        text-align: center;
+    }
+}

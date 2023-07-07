@@ -22,12 +22,6 @@ function Navbar() {
         {navItems.map((item, index) => (
           <div key={index} className={index === 0 ? styles.highlight : ''}>{item}</div>
         ))}
-         {/* <img
-          src={hamburger}
-          alt="menu"
-          className={styles.hamburger}
-          onClick={handleToggle}
-        /> */}
       </div>
 
       <div className={styles.navRight}>

@@ -39,7 +39,12 @@
     color: white;
     border-radius: 10px;
 }
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1000px) {
+    .navItems{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
     .navContainer{
         margin: auto 20px;
     }

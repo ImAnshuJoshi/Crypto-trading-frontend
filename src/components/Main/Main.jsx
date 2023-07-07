@@ -8,7 +8,7 @@ function Main() {
       <div className={styles.mainRight}>
         <div className={styles.heading}>Start and Build Your Crypto Portfolio Here</div>
         <div className={styles.subHeading}>
-          Only at CryptoCap, you can build a good portfolio and learn<br/> best
+          Only at CryptoCap, you can build a good portfolio and learn best
           practices about cryptocurrency.
         </div>
         <button>Get Started</button>

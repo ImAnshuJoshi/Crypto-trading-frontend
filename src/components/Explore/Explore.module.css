@@ -34,3 +34,29 @@
 .learnBtn{
     width:100%;
 }
+@media screen and (max-width: 1120px) {
+    .exploreContainer{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .exploreContainer>div{
+        width:90%;
+        padding:30px 30px 30px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .containerLeft{
+        width:100%;
+    }
+    .heading{
+        font-size: 20px;
+        text-align: center;
+    }
+    .subHeading{
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}

@@ -22,3 +22,21 @@
     width:90%;
     flex-wrap: wrap;
 }
+@media screen and (max-width: 690px) {
+    .featureContainer{
+        margin: 200px 20px;
+    }
+    .featuresHeading{
+        text-align: center;
+    }
+    .featuresSubHeading{
+        text-align: center;
+    }
+    .featureCards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
