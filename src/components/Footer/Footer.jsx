@@ -55,7 +55,6 @@ function Footer() {
             </div>
         </div>
         <div className={styles.rightContainer}>
-            {/* <div className={styles.eachLinkColumn}> */}
                 {
                     footerData.map((item, index) => {
                         return (
@@ -74,7 +73,6 @@ function Footer() {
                         )
                     })
                 }
-            {/* </div> */}
         </div>
     </div>
   )
