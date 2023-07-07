@@ -1,0 +1,44 @@
+.circle1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ff04c0;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    filter: blur(180px);
+}
+.circle2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #4f04ff;
+    position: absolute;
+    top: 130%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    filter: blur(200px);
+}
+.circle3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #4f04ff;
+    position: absolute;
+    top: 210%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    filter: blur(200px);
+}
+.circle4{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ff04c0;
+    position: absolute;
+    top: 360%;
+    left:30%;
+    transform: translate(-50%, -50%);
+    filter: blur(220px);
+}
