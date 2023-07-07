@@ -29,3 +29,12 @@
     border-bottom: 1px solid #403A3A;
     width: 100%;
   }
+  .negChange{
+    color: #AE0000;
+  }
+  @media screen and (max-width: 860px) {
+    .coinNameText , .verticalDivider , .coinCode{
+      display: none;
+    }
+  }
+  

@@ -29,3 +29,8 @@
     color:#B6B6B6;
     font-weight: 600;
 }
+@media screen and (max-width: 1147px) {
+    .MarketUpdateContainer{
+        margin:auto 10px;
+    }
+}

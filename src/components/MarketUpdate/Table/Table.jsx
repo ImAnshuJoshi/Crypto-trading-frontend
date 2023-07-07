@@ -81,7 +81,7 @@ function Table() {
         <thead className={styles.tableHeader}>
           <tr>
             <td className={styles.tableHeading}>NO</td>
-            <td className={styles.tableHeading}>NAME</td>
+            <td className={styles.tableHeading} >NAME</td>
             <td className={styles.tableHeading}>LAST PRICE</td>
             <td className={styles.tableHeading}>CHANGE</td>
             <td className={styles.tableHeading}>MARKET STATS</td>
@@ -103,7 +103,7 @@ function Table() {
                     </div>
                   </td>
                   <td>{item.LastPrice}</td>
-                  <td className={styles.change}>{item.Change}</td>
+                  <td className={`${styles.change} ${(index == 4 || index==5 || index==6) ? styles.negChange : ""}`}>{item.Change}</td>
                   <td className={styles.marketStats}>
                     <img src={item.marketStats} alt={item.name} />
                   </td>
