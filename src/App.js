@@ -6,6 +6,7 @@ import Main from "./components/Main/Main";
 import Navbar from "./components/Navbar/Navbar";
 import Features from "./Pages/Features/Features";
 import GetStarted from "./Pages/GetStarted/GetStarted";
+import Learn from "./Pages/Learn/Learn";
 import MarketTrend from "./Pages/MarketTrend/MarketTrend";
 import MarketUpdate from "./Pages/MarketUpdate/MarketUpdate";
 
@@ -19,6 +20,7 @@ function App() {
       <Explore />
       <MarketUpdate />
       <GetStarted />
+      <Learn />
       <Footer />
     </div>
   );
