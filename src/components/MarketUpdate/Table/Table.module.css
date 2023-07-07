@@ -9,12 +9,8 @@
     padding: 20px 30px 20px 30px;
     width:inherit;
   }
-  
   .tableHeader {
     margin-bottom: 10px;
-  }
-  tbody{
-    margin-top: 30px;
   }
   .currencyNames{
     display: flex;
