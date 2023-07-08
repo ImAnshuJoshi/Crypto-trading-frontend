@@ -12,6 +12,7 @@ import MarketUpdate from "./Pages/MarketUpdate/MarketUpdate";
 
 function App() {
   return (
+    /* So I have divided the folder into Pages and components , If section has more than 1 component , then its defined on pages and its component inside Components folder . Else If the section is small enough that can be designed in one component , then its defined inside component only. */
     <div className="App">
       <Navbar />
       <Main />
