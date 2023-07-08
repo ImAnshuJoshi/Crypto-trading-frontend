@@ -7,9 +7,14 @@ import styles from "./Navbar.module.css";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [highlightedIndex, setHighlightedIndex] = useState(0);
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
+  };
+
+  const handleItemClick = (index) => {
+    setHighlightedIndex(index);
   };
 
   return (
@@ -20,7 +25,13 @@ function Navbar() {
 
       <div className={`${styles.navItems} ${isOpen ? styles.open : ''}`}>
         {navItems.map((item, index) => (
-          <div key={index} className={index === 0 ? styles.highlight : ''}>{item}</div>
+          <div
+            key={index}
+            className={`${index === highlightedIndex ? styles.highlight : ''}`}
+            onClick={() => handleItemClick(index)}
+          >
+            {item}
+          </div>
         ))}
       </div>
 
