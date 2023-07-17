@@ -22,8 +22,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    cursor: pointer;
 }
-.firstNavItem{
+.highlightedItem{
     background-color: #EAEAEA;
     font-weight: 500;
     color:#211631;
